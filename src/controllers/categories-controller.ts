@@ -1,5 +1,7 @@
 import {Request, Response} from "express";
+import { getCategoriesList } from "../services/categories-service";
 
-export const getCategories = (request: Request, response:Response) => {
-        response.status(200).json({message: "hello world 2"});
+export const getCategories = async (request: Request, response:Response) => {
+    const data = await getCategoriesList();
+    response.status(200).json(data);
 }

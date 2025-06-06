@@ -1,5 +1,7 @@
 import {Request, Response} from "express";
+import { getQuestionsList } from "../services/questions-service";
 
-export const getQuestions = (request: Request, response:Response) => {
-        response.status(200).json({message: "hello world"});
+export const getQuestions = async (request: Request, response:Response) => {
+    const data = await getQuestionsList();
+    response.status(200).json(data);
 }
