@@ -1,4 +1,6 @@
 import express, {Request, Response} from "express";
+import {getQuestions} from "./controllers/questions-controller";
+import { getCategories } from "./controllers/categories-controller";
 
 function createApp()
 {
@@ -6,9 +8,9 @@ function createApp()
 
     app.use(express.json()); //middleware
 
-    app.get("/", (request: Request, response:Response) => {
-        response.status(200).json({message: "hello world"});
-    })
+    app.get("/questions", getQuestions);
+
+    app.get("/categories", getCategories);
 
     return app;
 }
