@@ -1,7 +1,13 @@
-import { ok } from "../utils/http-helper";
+import { noContent, ok } from "../utils/http-helper";
 
 
 export const getQuestionsList = async () => {
-    const data = await ok({message: "hello world"});
-    return data;
+    const data = null;
+    let response = null;
+    if(data){
+        response = await ok(data);
+    }else{
+        response = await noContent();
+    }
+    return response;
 }

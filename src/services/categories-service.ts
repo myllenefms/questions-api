@@ -1,7 +1,13 @@
-import { ok } from "../utils/http-helper";
+import { noContent, ok } from "../utils/http-helper";
 
 
 export const getCategoriesList = async () => {
-    const data = await ok({message: "hello world 2"});
-    return data;
+    const data = {message: "hello world 2"};
+    let response = null;
+    if(data){
+        response = await ok(data);
+    }else{
+        response = await noContent();
+    }
+    return response;
 }
