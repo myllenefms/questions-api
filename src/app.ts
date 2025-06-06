@@ -1,6 +1,7 @@
 import express, {Request, Response} from "express";
 import {getQuestions} from "./controllers/questions-controller";
 import { getCategories } from "./controllers/categories-controller";
+import router from "./routes";
 
 function createApp()
 {
@@ -8,9 +9,7 @@ function createApp()
 
     app.use(express.json()); //middleware
 
-    app.get("/questions", getQuestions);
-
-    app.get("/categories", getCategories);
+    app.use("/api", router);
 
     return app;
 }
