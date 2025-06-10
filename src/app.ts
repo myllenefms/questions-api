@@ -1,6 +1,4 @@
-import express, {Request, Response} from "express";
-import {getQuestions} from "./controllers/questions-controller";
-import { getCategories } from "./controllers/categories-controller";
+import express from "express";
 import router from "./routes";
 
 function createApp()
