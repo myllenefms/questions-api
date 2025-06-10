@@ -1,30 +1,29 @@
+import { json } from "stream/consumers";
 import {QuestionModel} from "../models/question-model";
 import { Category, Level } from "./categories-repository";
+import fs from "fs";
+import path from "path";
 
-const database: QuestionModel[] = [
-    {
-        id: 1, 
-        pergunta: "qual seu nome",
-        alternativas: ["beltrano", "ciclano"],
-        resposta_correta: 1,
-        categoria: Category.Gerais,
-        nivel: Level.Facil
-    },
-    {
-        id: 2, 
-        pergunta: "qual sua idade",
-        alternativas: ["20", "25"],
-        resposta_correta: 2,
-        categoria: Category.Gerais,
-        nivel: Level.Facil
-    }
-]
+const pathData = path.join(__dirname, "../data/questions.json");
 
-export const getAllQuestions = async () : Promise<QuestionModel[]> => {
-    return database;
+const getDataBase = async () =>{
+    //recuperar o json
+    const rawData = fs.readFileSync(pathData, "utf-8");
+    let jsonFile = JSON.parse(rawData);
+
+    return jsonFile;
 }
 
-export const getQuestionsByCategory = async (category: number): Promise<QuestionModel | undefined> => {
-    const data = database.find( q => q.categoria === category);
+
+
+export const getAllQuestionsRepo = async () : Promise<QuestionModel[]> => {
+    return await getDataBase();
+}
+
+export const getQuestionsByCategoryRepo = async (category: number): Promise<QuestionModel[]> => {
+    let data = await getDataBase();
+    if(data){
+        data = data.filter((q: QuestionModel) => q.categoria === category);
+    }
     return data;
 }

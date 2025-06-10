@@ -1,0 +1,99 @@
+[
+    
+    {
+        "id": 1,
+        "pergunta": "Qual organela celular é responsável por produzir energia (ATP)?",
+        "alternativas": ["Ribossomos", "Retículo Endoplasmático Rugoso", "Complexo Golgiense", "Mitocôndria"],
+        "resposta_correta": 4,
+        "categoria": 1,
+        "nível": 1
+    },
+    {
+        "id": 2,
+        "pergunta": "Qual é o osso do corpo humano que não se conecta com nenhum outro osso?",
+        "alternativas": ["Metacarpo", "Hióide", "Úmero", "Ísquio"],
+        "resposta_correta": 2,
+        "categoria": 1,
+        "nível": 3
+    },
+    {
+        "id": 3,
+        "pergunta": "Quanto tempo um abacaxi leva, em média, para estar pronto para colheita?",
+        "alternativas": ["9 meses", "1 ano", "2 anos", "6 anos"],
+        "resposta_correta": 3,
+        "categoria": 3,
+        "nível": 2
+    },
+    {
+        "id": 4,
+        "pergunta": "Qual é o menor órgão do corpo humano?",
+        "alternativas": ["Glândulas salivares", "Vesícula", "Glândula pineal", "Rádio"],
+        "resposta_correta": 3,
+        "categoria": 1,
+        "nível": 2
+    },
+    {
+        "id": 5,
+        "pergunta": "Qual a espécie de tartaruga que respira pela cloaca?",
+        "alternativas": ["Tartaruga-do-rio-Mary", "Tartaruga-cabeçuda", "Tartaruga-verde", "Tartaruga-de-pente"],
+        "resposta_correta": 1,
+        "categoria": 3,
+        "nível": 3
+    },
+    {
+        "id": 6,
+        "pergunta": "Para quem foi escrita a música 'Quando Você Olha Pra Ela' de Gal Costa?",
+        "alternativas": ["Irmã de Gal Costa", "Mãe de Gal Costa", "Esposa de Gal Costa", "Pai de Gal Costa"],
+        "resposta_correta": 2,
+        "categoria":2,
+        "nível": 2
+    },
+    {
+        "id": 7,
+        "pergunta": "O que é uma 'Espatódea'?",
+        "alternativas": [" Uma flor", "Pedra preciosa", " Um Inseto", "Tipo de peixe"],
+        "resposta_correta": 1,
+        "categoria": 3,
+        "nível": 1
+    },
+    {
+        "id": 8,
+        "pergunta": "A Dendrologia estuda o que?",
+        "alternativas": ["Aparelhos de testes aéreos", "Botânica e ciências florestais", "Doenças dos rins", "Partes internas dos ossos"],
+        "resposta_correta": 2,
+        "categoria": 3,
+        "nível": 3
+    },
+    {
+        "id": 9,
+        "pergunta": "Percy Spencer foi o invetor de qual desses dispositivos?",
+        "alternativas": ["Fones de ouvido", "Marcapasso", "Micro-ondas", "Raio-X"],
+        "resposta_correta": 3,
+        "categoria": 3,
+        "nível": 2
+    },
+    {
+        "id": 10,
+        "pergunta": "Em que ano foi tirada a primeira fotografia?",
+        "alternativas": ["1877 na Bélgica", "1826 na França", "1859 na Inglaterra", "1848 na Alemanha"],
+        "resposta_correta": 2,
+        "categoria": 3,
+        "nível": 3
+    },
+    {
+        "id": 11,
+        "pergunta": "Qual o menor mamífero terrestre do mundo?",
+        "alternativas": ["Musaranho-pigmeu", "Colibri-abelha-cubano", "Sapo-pulga", "Camaleão Brookesia micra"],
+        "resposta_correta": 1,
+        "categoria": 3,
+        "nível": 3
+    },
+    {
+        "id": 12,
+        "pergunta": "Quantos daesangs o grupo sul-coreano BTS tem no total?",
+        "alternativas": ["74 daesangs", "38 daesangs", "85 daesangs", "59 daesangs"],
+        "resposta_correta": 1,
+        "categoria":2,
+        "nível": 3
+    }
+]
