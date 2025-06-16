@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "descricao": "Biologia"
+    },
+    {
+        "id":2,
+        "descricao": "Música"
+    },
+    {
+        "id":3,
+        "descricao": "Conhecimentos Gerais"
+    }
+]

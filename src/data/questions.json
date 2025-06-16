@@ -6,7 +6,7 @@
         "alternativas": ["Ribossomos", "Retículo Endoplasmático Rugoso", "Complexo Golgiense", "Mitocôndria"],
         "resposta_correta": 4,
         "categoria": 1,
-        "nível": 1
+        "nivel": 1
     },
     {
         "id": 2,
@@ -14,7 +14,7 @@
         "alternativas": ["Metacarpo", "Hióide", "Úmero", "Ísquio"],
         "resposta_correta": 2,
         "categoria": 1,
-        "nível": 3
+        "nivel": 3
     },
     {
         "id": 3,
@@ -22,7 +22,7 @@
         "alternativas": ["9 meses", "1 ano", "2 anos", "6 anos"],
         "resposta_correta": 3,
         "categoria": 3,
-        "nível": 2
+        "nivel": 2
     },
     {
         "id": 4,
@@ -30,7 +30,7 @@
         "alternativas": ["Glândulas salivares", "Vesícula", "Glândula pineal", "Rádio"],
         "resposta_correta": 3,
         "categoria": 1,
-        "nível": 2
+        "nivel": 2
     },
     {
         "id": 5,
@@ -38,7 +38,7 @@
         "alternativas": ["Tartaruga-do-rio-Mary", "Tartaruga-cabeçuda", "Tartaruga-verde", "Tartaruga-de-pente"],
         "resposta_correta": 1,
         "categoria": 3,
-        "nível": 3
+        "nivel": 3
     },
     {
         "id": 6,
@@ -46,7 +46,7 @@
         "alternativas": ["Irmã de Gal Costa", "Mãe de Gal Costa", "Esposa de Gal Costa", "Pai de Gal Costa"],
         "resposta_correta": 2,
         "categoria":2,
-        "nível": 2
+        "nivel": 2
     },
     {
         "id": 7,
@@ -54,7 +54,7 @@
         "alternativas": [" Uma flor", "Pedra preciosa", " Um Inseto", "Tipo de peixe"],
         "resposta_correta": 1,
         "categoria": 3,
-        "nível": 1
+        "nivel": 1
     },
     {
         "id": 8,
@@ -62,7 +62,7 @@
         "alternativas": ["Aparelhos de testes aéreos", "Botânica e ciências florestais", "Doenças dos rins", "Partes internas dos ossos"],
         "resposta_correta": 2,
         "categoria": 3,
-        "nível": 3
+        "nivel": 3
     },
     {
         "id": 9,
@@ -70,7 +70,7 @@
         "alternativas": ["Fones de ouvido", "Marcapasso", "Micro-ondas", "Raio-X"],
         "resposta_correta": 3,
         "categoria": 3,
-        "nível": 2
+        "nivel": 2
     },
     {
         "id": 10,
@@ -78,7 +78,7 @@
         "alternativas": ["1877 na Bélgica", "1826 na França", "1859 na Inglaterra", "1848 na Alemanha"],
         "resposta_correta": 2,
         "categoria": 3,
-        "nível": 3
+        "nivel": 3
     },
     {
         "id": 11,
@@ -86,7 +86,7 @@
         "alternativas": ["Musaranho-pigmeu", "Colibri-abelha-cubano", "Sapo-pulga", "Camaleão Brookesia micra"],
         "resposta_correta": 1,
         "categoria": 3,
-        "nível": 3
+        "nivel": 3
     },
     {
         "id": 12,
@@ -94,6 +94,6 @@
         "alternativas": ["74 daesangs", "38 daesangs", "85 daesangs", "59 daesangs"],
         "resposta_correta": 1,
         "categoria":2,
-        "nível": 3
+        "nivel": 3
     }
 ]

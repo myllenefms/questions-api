@@ -1,11 +1,26 @@
-export enum Category{
-    Biologia=1,
-    Musica=2,
-    Gerais=3
+import fs from "fs";
+import path from "path";
+import { CategoryModel } from "../models/category-model";
+
+const pathData = path.join(__dirname, "../data/categories.json");
+
+const getDataBase = async () =>{
+    //recuperar o json
+    const rawData = fs.readFileSync(pathData, "utf-8");
+    let jsonFile = JSON.parse(rawData);
+
+    return jsonFile;
 }
 
-export enum Level{
-    Facil = 1,
-    Medio = 2,
-    Dificil = 3
+
+export const getAllCategoriesRepo = async () : Promise<CategoryModel[]> => {
+    return await getDataBase();
+}
+
+export const getCategoryByIdRepo = async (id: number): Promise<string> => {
+    let data = await getDataBase();
+    if(data){
+        data = data.filter((q: CategoryModel) => q.id === id);
+    }
+    return data.descricao;
 }
